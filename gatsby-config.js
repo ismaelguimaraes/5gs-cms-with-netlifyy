@@ -26,7 +26,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Open Sans', 'Roboto']
+          families: ['Roboto', 'Poppins', 'Bebas Neue']
         }
       }
     },
@@ -39,6 +39,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
